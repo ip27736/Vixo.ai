@@ -23,10 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link
-              to="/"
-              className="flex items-center gap-2 group"
-            >
+            <Link to="/" className="flex items-center gap-2 group">
               <div className="relative w-10 h-10 bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 rounded-xl flex items-center justify-center font-bold text-white text-lg group-hover:shadow-lg group-hover:shadow-purple-500/50 transition-all duration-300">
                 V
               </div>
@@ -102,9 +99,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1">
-        {children}
-      </main>
+      <main className="flex-1">{children}</main>
 
       {/* Footer */}
       <footer className="glass border-t border-white/10">
@@ -123,12 +118,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <h4 className="text-sm font-semibold text-white mb-4">Product</h4>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
-                  <Link to="/dashboard" className="hover:text-white transition-colors">
+                  <Link
+                    to="/dashboard"
+                    className="hover:text-white transition-colors"
+                  >
                     Dashboard
                   </Link>
                 </li>
                 <li>
-                  <Link to="/history" className="hover:text-white transition-colors">
+                  <Link
+                    to="/history"
+                    className="hover:text-white transition-colors"
+                  >
                     History
                   </Link>
                 </li>
@@ -145,17 +146,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <h4 className="text-sm font-semibold text-white mb-4">Support</h4>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
-                  <Link to="/help" className="hover:text-white transition-colors">
+                  <Link
+                    to="/help"
+                    className="hover:text-white transition-colors"
+                  >
                     Help Center
                   </Link>
                 </li>
                 <li>
-                  <Link to="/privacy" className="hover:text-white transition-colors">
+                  <Link
+                    to="/privacy"
+                    className="hover:text-white transition-colors"
+                  >
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link to="/terms" className="hover:text-white transition-colors">
+                  <Link
+                    to="/terms"
+                    className="hover:text-white transition-colors"
+                  >
                     Terms of Service
                   </Link>
                 </li>
@@ -167,12 +177,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <h4 className="text-sm font-semibold text-white mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-gray-400">
                 <li>
-                  <Link to="/feedback" className="hover:text-white transition-colors">
+                  <Link
+                    to="/feedback"
+                    className="hover:text-white transition-colors"
+                  >
                     Feedback
                   </Link>
                 </li>
                 <li>
-                  <Link to="/settings" className="hover:text-white transition-colors">
+                  <Link
+                    to="/settings"
+                    className="hover:text-white transition-colors"
+                  >
                     Settings
                   </Link>
                 </li>

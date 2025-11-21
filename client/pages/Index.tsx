@@ -101,8 +101,8 @@ export default function Index() {
           </h1>
           <p className="text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed animate-slide-up">
             Vixo.ai is the most advanced facial tic tracking platform, powered
-            by cutting-edge AI technology. Monitor, analyze, and manage your tics
-            with real-time detection and comprehensive analytics.
+            by cutting-edge AI technology. Monitor, analyze, and manage your
+            tics with real-time detection and comprehensive analytics.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16 animate-slide-up">
@@ -128,7 +128,7 @@ export default function Index() {
                 >
                   ✨ {feature}
                 </div>
-              )
+              ),
             )}
           </div>
         </div>
@@ -142,8 +142,8 @@ export default function Index() {
               Powerful Features
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Everything you need to track, analyze, and understand your tics with
-              precision and ease.
+              Everything you need to track, analyze, and understand your tics
+              with precision and ease.
             </p>
           </div>
 
@@ -204,7 +204,9 @@ export default function Index() {
       <section className="relative py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl sm:text-5xl font-bold mb-4">How It Works</h2>
+            <h2 className="text-4xl sm:text-5xl font-bold mb-4">
+              How It Works
+            </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
               Simple, intuitive steps to start tracking your tics today.
             </p>
@@ -264,8 +266,8 @@ export default function Index() {
                 Ready to Track Your Tics?
               </h2>
               <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-                Join thousands of users who are already benefiting from Vixo.ai's
-                advanced tic tracking and analysis platform.
+                Join thousands of users who are already benefiting from
+                Vixo.ai's advanced tic tracking and analysis platform.
               </p>
               <Link
                 to="/dashboard"
